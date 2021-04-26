@@ -18,7 +18,8 @@
 function factorial(num) {
     // if (num < 2) return 1;
     if (num < 2) { console.log(1) };
-    // return num * factorial(num - 1);
     console.log(num * factorial(num - 1))
+    return num * factorial(num - 1);
+
 }
 factorial(1)
